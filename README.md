@@ -8,8 +8,8 @@
 
 ## 2.1 编程
 
-- [前端开发者指南](/programming/frontend/readme.md)
-- [后端开发者指南](/programming/backend/readme.md)
+- [前端开发者指南](./programming/frontend/README.md)
+- [后端开发者指南](./programming/backend/README.md)
 
 ## 2.2 AI
 
