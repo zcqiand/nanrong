@@ -16,13 +16,13 @@ Donkeycar 是 Python 的极简主义和模块化自动驾驶库。它是为业�
 
 ![OqQIEB.png](https://i.imgtg.com/2023/06/02/OqQIEB.png)
 
-## [GFPGAN](https://github.com/TencentARC/GFPGAN)
+## [GFPGAN](https://github.com/TencentARC/GFPGAN?_blank)
 
 GFPGAN 旨在开发一种实用的真实世界人脸修复算法。它利用封装在预训练人脸 GAN（例如
 StyleGAN2） 中的丰富多样的先验知识来恢复盲人脸。
 ![OqQwFK.jpg](https://i.imgtg.com/2023/06/02/OqQwFK.jpg)
 
-## [深度学习调优手册](https://github.com/google-research/tuning_playbook)
+## [深度学习调优手册](https://github.com/google-research/tuning_playbook?_blank)
 
 深度学习调优手册 本文档适用于对最大化深度学习模型的性能感兴趣的工程师和研究人员（包括个人和团队） 。我们假定您具备机器学习和深度学习概念的基本知识。
 
