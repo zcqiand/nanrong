@@ -13,6 +13,8 @@
 
 ## 2.2 AI
 
+- [AI 有趣的资源](./ai/FunResource/README.md)
+
 ## 2.3 写作
 
 ## 2.4 旅行
@@ -21,9 +23,20 @@
 
 ## 3.1 仓库
 
+- [关于我](https://github.com/zcqiand/qiand-life)
+- [自媒体资源](https://github.com/zcqiand/xiaodao)
+- [山羊写作 API](https://github.com/zcqiand/MagicText-Api)
+- [山羊写作 UI](https://github.com/zcqiand/MagicText-UI)
+- [公共支撑框架](https://github.com/zcqiand/CommonMormon)
+
 ## 3.2 知识
 
+- [360doc 个人图书馆](http://www.360doc.com/)
+
 ## 3.3 阅读
+
+- [OneDrive](https://onedrive.live.com/)
+- [豆瓣](https://www.douban.com/people/187272163)
 
 ## 联系我
 
