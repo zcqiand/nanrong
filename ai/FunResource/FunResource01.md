@@ -1,4 +1,4 @@
-# 1 介绍
+# 1 《AI 有趣的资源》第 1 期 介绍
 
 ## [LocalAI](https://github.com/go-skynet/LocalAI)
 
