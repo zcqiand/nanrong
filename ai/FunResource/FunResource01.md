@@ -29,3 +29,9 @@ StyleGAN2） 中的丰富多样的先验知识来恢复盲人脸。
 我们的重点是超参数调整的过程。我们触及了深度学习训练的其他方面，例如管道实施和优化，但我们对这些方面的处理并不打算完成。
 
 我们假设机器学习问题是一个监督学习问题或看起来很像的问题（例如自我监督）。也就是说，本文档中的一些规定也可能适用于其他类型的问题。
+
+## [6.AnimatedDrawings](https://github.com/facebookresearch/AnimatedDrawings)
+
+AnimatedDrawings 旨在成为一个有用的创意工具，让您可以灵活地创建由您自己绘制的角色主演的动画。
+
+![O5MHjD.png](https://i.imgtg.com/2023/06/04/O5MHjD.png)
