@@ -4,11 +4,11 @@ GPT、ChatGPT、OpenAI和LLM相关的很棒的资源的集合。。
 
 ## [1.GPT-4](https://openai.com/gpt-4)
 
-OpenAI 最先进的系统，可产生更安全、更有用的响应。
+GPT-4，OpenAI 最先进的系统，可产生更安全、更有用的响应。
 
-## [2.ChatGPT](https://openai.com/blog/chatgpt)
+## [2.ChatGPT](https://chat.openai.com/chat)
 
-GPT 语言模型的一种变体，专为在对话设置中生成类似人类的响应而设计
+ChatGPT，专为在对话设置中生成类似人类的响应而设计
 
 ## [3.New Bing](https://news.microsoft.com/the-new-Bing/)
 
@@ -16,12 +16,12 @@ GPT 语言模型的一种变体，专为在对话设置中生成类似人类的�
 
 ## [4.Google Bard](https://bard.google.com/)
 
-由 LaMDA 提供支持的实验性对话式 AI 服务。
+Bard 由 LaMDA 提供支持的实验性对话式 AI 服务。
 
-## [5.Midjourney](https://www.midjourney.com/)
+## [5.克劳德](https://www.anthropic.com/index/introducing-claude)
 
-由位于旧金山的独立研究实验室 Midjourney, Inc. 创建和托管的人工智能程序和服务。
+claude 基于 Anthropic 对培训有用、诚实和无害的人工智能系统的研究的下一代人工智能助手。
 
-## [6.Stable Diffusion](https://github.com/Stability-AI/stablediffusion)
+## [6.HuggingChat](https://huggingface.co/chat/)
 
-2022 年发布的深度学习、文本到图像模型。它主要用于生成以文本描述为条件的详细图像。
+HuggingChat 的目标是提供一个 AI 助手，它具有友好的、类似人类的个性，并且能够理解和响应来自像您这样的用户的自然语言查询。
