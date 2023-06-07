@@ -38,9 +38,13 @@
 - [OneDrive](https://onedrive.live.com/)
 - [豆瓣](https://www.douban.com/people/187272163)
 
-## 3.4 网盘
+## 3.4 杂项
 
 - [TG 图床](https://imgtg.com/)
+- [AWS 云](https://aws.amazon.com/cn/)
+- [namecheap](https://www.namecheap.com/)
+- [Cloudflare](https://www.cloudflare.com/zh-cn/)
+- [腾讯云](https://cloud.tencent.com/)
 
 ## 联系我
 
