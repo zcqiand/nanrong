@@ -13,6 +13,8 @@
 
 ## 2.2 AI
 
+- [有趣的提示](./ai/Prompt/FunPrompt.md)
+
 - [AI 有趣的资源](./ai/FunResource/README.md)
 
 ## 2.3 写作
@@ -42,9 +44,10 @@
 
 - [TG 图床](https://imgtg.com/)
 - [AWS 云](https://aws.amazon.com/cn/)
+- [腾讯云](https://cloud.tencent.com/)
 - [namecheap](https://www.namecheap.com/)
 - [Cloudflare](https://www.cloudflare.com/zh-cn/)
-- [腾讯云](https://cloud.tencent.com/)
+- [dockerhub](https://hub.docker.com/)
 
 ## 联系我
 
