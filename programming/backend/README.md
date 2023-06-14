@@ -42,7 +42,8 @@
 
 ## 2.15 API客户端（包括GraphQL）
 
-## 2.16 实时通讯（包括WebSocket）
+## 2.16 实时通讯
+* [WebSocket：实时通信的强大工具](./src/WebSocket：实时通信的强大工具.md)
 
 ## 2.17 对象映射
 * [使用AutoMapper进行对象映射的简介和实例](./src/使用AutoMapper进行对象映射的简介和实例.md)
