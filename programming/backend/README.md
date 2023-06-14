@@ -20,10 +20,10 @@
 
 ## 2.7 数据库基础
 
-## 2.8 API（ASP.NET 核心基础）
+## 2.8 API（包括ASP.NET 核心基础）
 * [使用Swagger构建强大的API文档和客户端工具](./src/使用Swagger构建强大的API文档和客户端工具.md)
-* [IdentityServer4：简介、选择理由、使用方法以及常见注意事项](./src/IdentityServer4：简介、选择理由、使用方法以及常见注意事项.md)
 * [Apollo：开源的配置中心解决方案](./src/Apollo：开源的配置中心解决方案.md)
+* [IdentityServer4：简介、选择理由、使用方法以及常见注意事项](./src/IdentityServer4：简介、选择理由、使用方法以及常见注意事项.md)
 
 ## 2.9 对象关系管理
 
