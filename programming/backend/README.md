@@ -40,7 +40,8 @@
 ## 2.14 日志框架
 * [Serilog：强大的日志记录库](./src/Serilog：强大的日志记录库.md)
 
-## 2.15 API客户端（包括GraphQL）
+## 2.15 API客户端
+* [深入了解GraphQL：优势、使用方法和常见问题](./src/深入了解GraphQL：优势、使用方法和常见问题.md)
 
 ## 2.16 实时通讯
 * [WebSocket：实时通信的强大工具](./src/WebSocket：实时通信的强大工具.md)
