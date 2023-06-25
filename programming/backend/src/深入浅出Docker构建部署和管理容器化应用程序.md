@@ -22,7 +22,7 @@ Docker的出色之处在于它提供了一种轻量级、快速和可靠的方�
 
 ### 步骤 1：安装 Docker
 
-首先，您需要在您的计算机上安装Docker。请访问[Docker官方网站]（https://www.docker.com/）并按照适用于您操作系统的说明进行安装。
+首先，您需要在您的计算机上安装Docker。请访问[Docker官方网站](https://www.docker.com/）并按照适用于您操作系统的说明进行安装。
 
 ### 步骤 2：编写 Dockerfile
 
