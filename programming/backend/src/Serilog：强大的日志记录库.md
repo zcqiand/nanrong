@@ -70,5 +70,5 @@ Serilog是一个功能强大且灵活的日志记录库，它提供了丰富的�
 
 参考链接：
 
-Serilog官方文档：https://serilog.net/
-Serilog GitHub仓库：https://github.com/serilog/serilog
+- Serilog官方文档：https://serilog.net/
+- Serilog GitHub仓库：https://github.com/serilog/serilog
