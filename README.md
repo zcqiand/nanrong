@@ -21,6 +21,7 @@ AI是未来：人工智能是我们时代最令人着迷的领域之一，它为
 **个人目标**
 
 **个人主页**
+- [小道](https://zcqiand.github.io/xiaodao/)
 
 **笔记与知识**
 - [360doc 个人图书馆](http://www.360doc.com/)
