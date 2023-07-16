@@ -1,48 +1,69 @@
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 
-{% seo %}
+{%- if page.title -%}
+    <title>{{ page.title | escape }} · {{ site.title | escape }}</title>
+{%- else -%}
+    <title>{{ site.title | escape }}</title>
+{%- endif -%}
 
-{% feed_meta %}
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="description" content="{{site.description}}">
 
-{% if jekyll.environment == 'production' and site.google_analytics %}
-  {% include google-analytics.html %}
+{%- if site.gitbook_version -%}
+    <meta name="generator" content="Jekyll (using style of GitBook {{ site.gitbook_version | escape }})">
+{%- else -%}
+    <meta name="generator" content="Jekyll (using style of GitBook)">
+{%- endif -%}
+
+{%- if site.author -%}
+    <meta name="author" content="{{ site.author | escape }}">
+{%- endif -%}
+
+<link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/style.css">
+<link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/gitbook-plugin-fontsettings/website.css">
+<link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/gitbook-plugin-search-pro/search.css">
+<link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+
+<link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/rouge/{{ site.syntax_highlighter_style | default: 'colorful' }}.css">
+
+<link rel="stylesheet" href="{{site.baseurl}}/assets/gitbook/custom.css">
+
+<meta name="HandheldFriendly" content="true"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{site.baseurl}}/assets/gitbook/images/apple-touch-icon-precomposed-152.png">
+<link rel="shortcut icon" href="{{site.baseurl}}/{{site.favicon_path}}" type="image/x-icon">
+
+{% if site.extra_css %}
+    {%- for extra_css in site.extra_css -%}
+        {%- assign starts_with = extra_css | slice: 0,4 -%}
+        {% if starts_with == "http" %}
+<link rel="stylesheet" href="{{ extra_css }}">
+        {%- else -%}
+<link rel="stylesheet" href="{{site.baseurl}}/{{ extra_css }}">
+        {%- endif -%}
+    {%- endfor -%}
 {% endif %}
 
-{% if page.math %}
-  {% include mathjax.html %}
+{% if site.extra_header_js %}
+    {%- for extra_js in site.extra_header_js -%}
+        {%- assign starts_with = extra_js | slice: 0,4  -%}
+        {% if starts_with == "http" %}
+<script src="{{ extra_js }}"></script>
+        {%- else -%}
+<script src="{{site.baseurl}}/{{ extra_js }}"></script>
+        {%- endif -%}
+    {%- endfor -%}
 {% endif %}
 
-<!-- Google Fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open%20Sans|Roboto|Roboto%20Slab|Inconsolata|Dancing%20Script|Noto%20Sans%20SC|Noto%20Sans%20TC|Noto%20Serif%20SC|Noto%20Serif%20TC|Ma%20Shan%20Zheng">
+{%- if site.tracker -%}
+    <!-- trackers -->
 
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-<link rel="stylesheet" href="{{ '/assets/css/skin.css' | relative_url }}">
+    {%- if site.tracker.application_insights -%}
+        <!-- application insights -->
+        {%- include application-insights.html -%}
+    {%- endif -%}
 
-<!-- Begin selecting skin -->
-{% unless site.skin %}
-  <script>
-    const hour = (new Date()).getHours();
-    let filename = "";
-    if (hour >= 5 && hour < 7) {
-      filename = "{{ '/assets/css/skin-sunrise.css' | relative_url }}";
-    } else if (hour >= 7 && hour < 17) {
-      filename = "{{ '/assets/css/skin-daylight.css' | relative_url }}";
-    } else if (hour >= 17 && hour < 19) {
-      filename = "{{ '/assets/css/skin-sunset.css' | relative_url }}";
-    } else {
-      filename = "{{ '/assets/css/skin-midnight.css' | relative_url }}";
-    }
-    const elem = document.createElement("link");
-    elem.setAttribute("rel", "stylesheet");
-    elem.setAttribute("type", "text/css");
-    elem.setAttribute("href", filename);
-    document.getElementsByTagName("head")[0].appendChild(elem);
-  </script>
-{% endunless %}
-<!-- End selecting skin -->
-
-<script async src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
-
-{% include custom-head.html %}
+{%- endif -%}
