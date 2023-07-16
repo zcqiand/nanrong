@@ -1,6 +1,8 @@
-# 1 简介
+# 小道
 
-欢迎来到小道的主页，在这个充满无限可能的数字时代，小道带您探索这些领域的无穷魅力和令人着迷的奥秘。不论您是已经热衷哪个领域感兴趣，小道都和你一同踏上这段美好的旅程！
+## 简介
+
+欢迎来到小道的主页，在这个充满无限可能的数字时代，小道带您探索这些领域的无穷魅力和令人着迷的奥秘。
 
 编程是艺术：编程是现代世界的魔法，是将抽象的想法转化为现实的工具。
 
@@ -12,44 +14,45 @@ AI是未来：人工智能是我们时代最令人着迷的领域之一，它为
 
 - [更新日志](./CHANGELOG.md)
 
-# 2 栏目
+## 栏目
+### 个人生产力
+**习惯追踪**
 
-## 2.1 编程
+**个人目标**
 
-- [前端开发者指南](./programming/frontend/README.md)
-- [后端开发者指南](./programming/backend/README.md)
+**个人主页**
 
-## 2.2 AI
-
-- [有趣的提示](./ai/Prompt/FunPrompt.md)
-
-- [AI 有趣的资源](./ai/FunResource/README.md)
-
-## 2.3 写作
-
-## 2.4 旅行
-
-# 3 资源
-
-## 3.1 仓库
-
-- [关于我](https://github.com/zcqiand/qiand-life)
-- [自媒体资源](https://github.com/zcqiand/xiaodao)
-- [山羊写作 API](https://github.com/zcqiand/MagicText-Api)
-- [山羊写作 UI](https://github.com/zcqiand/MagicText-UI)
-- [公共支撑框架](https://github.com/zcqiand/CommonMormon)
-
-## 3.2 知识
-
+**笔记与知识**
 - [360doc 个人图书馆](http://www.360doc.com/)
 
-## 3.3 阅读
-
+### 兴趣爱好
+**学习**
 - [OneDrive](https://onedrive.live.com/)
 - [豆瓣](https://www.douban.com/people/187272163)
 
-## 3.4 杂项
+**自媒体**
 
+- 微信公众号：小道的朋友圈
+- 头条号：[小道的朋友圈](http://www.toutiao.com/c/user/102425115737/)
+- 知乎：https://www.zhihu.com/people/zcqiand
+- 博客：https://www.cnblogs.com/zcqiand/
+- Github：[小道的朋友圈](https://github.com/zcqiand/blogging)
+
+**写作**
+
+- Github：[山羊书屋](https://github.com/zcqiand/writing)
+
+### 项目
+
+- [山羊写作 API](https://github.com/zcqiand/MagicText-Api)
+- [山羊写作 UI](https://github.com/zcqiand/MagicText-UI)
+- [公共支撑框架 API](https://github.com/zcqiand/CommonMormon-Api)
+- [公共支撑框架 UI](https://github.com/zcqiand/CommonMormon-UI)
+
+
+### 杂项
+
+- [关于我](https://github.com/zcqiand/qiand-life)
 - [TG 图床](https://imgtg.com/)
 - [AWS 云](https://aws.amazon.com/cn/)
 - [腾讯云](https://cloud.tencent.com/)
@@ -60,12 +63,8 @@ AI是未来：人工智能是我们时代最令人着迷的领域之一，它为
 ## 联系我
 
 - 微信公众号：小道的朋友圈
-- 头条号：[小道的朋友圈](http://www.toutiao.com/c/user/102425115737/)
-- 作品：[小道的朋友圈](https://www.aidaibi.net)
 - 邮箱：1282301776@qq.com
 - Github: https://github.com/zcqiand
-- 知乎：https://www.zhihu.com/people/zcqiand
-- 博客: https://www.cnblogs.com/zcqiand/
 
 ## 捐赠支持
 
