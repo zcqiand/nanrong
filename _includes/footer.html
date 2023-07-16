@@ -1,38 +1,24 @@
-<script src="{{site.baseurl}}/assets/gitbook/gitbook.js"></script>
-<script src="{{site.baseurl}}/assets/gitbook/theme.js"></script>
+<div class="footer-col-wrapper">
 
-<script src="{{site.baseurl}}/assets/gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
-<script src="{{site.baseurl}}/assets/gitbook/gitbook-plugin-sharing/buttons.js"></script>
+  <div class="footer-col">
+    <div class="copyright">
+      {% assign year_from = site.posts[-1].date | date: '%Y' %}
+      {% assign year_to   = site.time | date: '%Y' %}
+      {% if year_from == nil or year_from == year_to %}
+        {% assign year_string = year_from %}
+      {% else %}
+        {% assign year_string = year_from | append: '&nbsp;' | append: '-' | append: '&nbsp;' | append: year_to %}
+      {% endif %}
+      {% if site.author %}
+      <p>Copyright © {{ year_string }} {{ site.author }}; All rights reserved.</p>
+      {% endif %}
+    </div>
+    <p>
+      Powered by <a href="https://jekyllrb.com/">Jekyll</a> & <a href="https://github.com/ngzhio/jekyll-theme-hamilton">Hamilton</a>
+    </p>
+  </div>
 
-<!-- <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
-<script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
-<script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
-<script src="../gitbook/gitbook-plugin-search/search.js"></script> -->
-
-<script src="{{site.baseurl}}/assets/gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
-<script src="{{site.baseurl}}/assets/gitbook/gitbook-plugin-search-pro/search.js"></script>
-<script src="{{site.baseurl}}/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
-<script src="{{site.baseurl}}/assets/gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
-
-{% if site.extra_footer_js %}
-    {%- for extra_js in site.extra_header_js -%}
-        {%- assign starts_with = extra_js | slice: 0,4  -%}
-        {% if starts_with == "http" %}
-<script src="{{ extra_js }}"></script>
-        {%- else -%}
-<script src="{{site.baseurl}}/{{ extra_js }}"></script>
-        {%- endif -%}
-    {%- endfor -%}
-{% endif %}
-
-{%- if site.tracker -%}
-    <!-- trackers -->
-    {%- if site.tracker.google_analytics -%}
-        <!-- google analytics -->
-        {%- include google-analytics.html -%}
-    {%- endif -%}
-    {%- if site.tracker.cnzz -%}
-        <!-- cnzz -->
-        {%- include cnzz.html -%}
-    {%- endif -%}
-{%- endif -%}
+  <div class="footer-col">
+    <p>{{ site.description | escape }}</p>
+  </div>
+</div>
