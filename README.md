@@ -34,8 +34,8 @@ AI是未来：人工智能是我们时代最令人着迷的领域之一，它为
 
 - 微信公众号：小道的朋友圈
 - 头条号：[小道的朋友圈](http://www.toutiao.com/c/user/102425115737/)
-- 知乎：https://www.zhihu.com/people/zcqiand
-- 博客：https://www.cnblogs.com/zcqiand/
+- 知乎：[小道](https://www.zhihu.com/people/zcqiand)
+- 博客：[小道](https://www.cnblogs.com/zcqiand/)
 - Github：[小道的朋友圈](https://github.com/zcqiand/blogging)
 
 **写作**
