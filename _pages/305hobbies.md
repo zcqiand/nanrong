@@ -7,8 +7,8 @@ layout: post
 ---
 
 **学习**
-- [OneDrive](https://onedrive.live.com/)
 - [豆瓣](https://www.douban.com/people/187272163)
+- [Notion](https://www.notion.so/)
 
 **自媒体**
 - 微信公众号：小道的朋友圈
@@ -17,5 +17,9 @@ layout: post
 - 博客：[小道](https://www.cnblogs.com/zcqiand/)
 - Github：[小道的朋友圈](https://github.com/zcqiand/blogging)
 
+**语言**
+- [有道背单词](https://recite.youdao.com/)
+
 **写作**
 - Github：[山羊书屋](https://github.com/zcqiand/writing)
+- [起点](https://www.qidian.com/)
