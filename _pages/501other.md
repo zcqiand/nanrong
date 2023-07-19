@@ -6,7 +6,6 @@ category: Jekyll
 layout: post
 ---
 
-- [关于我](https://github.com/zcqiand/qiand-life)
 - [TG 图床](https://imgtg.com/)
 - [AWS 云](https://aws.amazon.com/cn/)
 - [腾讯云](https://cloud.tencent.com/)
