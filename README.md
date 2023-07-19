@@ -20,6 +20,13 @@ AI是未来：人工智能是我们时代最令人着迷的领域之一，它为
 
 - [更新日志](./CHANGELOG.md)
 
+## 栏目
+
+- [个人生产力](./_pages/304personal-productivity.md)
+- [兴趣爱好](./_pages/305hobbies.md)
+- [项目](./_pages/401projects.md)
+- [杂项](./_pages/501other.md)
+
 ## 联系我
 
 - 微信公众号：小道的朋友圈
