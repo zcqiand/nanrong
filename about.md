@@ -1,29 +1,37 @@
 ---
 layout: page
-title: About
+title: 关于我们
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+编程是艺术：编程是现代世界的魔法，是将抽象的想法转化为现实的工具。
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+AI是未来：人工智能是我们时代最令人着迷的领域之一，它为我们带来了无数的机会和挑战。
 
-There are currently two themes built on Poole:
+文字是力量：写作是表达思想和感情的艺术，是传播知识和启发他人的媒介。
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+旅行是奇迹：旅行是探索世界和拓展视野的绝佳方式。
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+## 栏目
 
-## Setup
+- [个人生产力](./_pages/304personal-productivity.md)
+- [兴趣爱好](./_pages/305hobbies.md)
+- [项目](./_pages/401projects.md)
+- [杂项](./_pages/501other.md)
 
-Some fun facts about the setup of this project include:
+## 联系我
 
-* Built for [Jekyll](https://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Atom](https://atom.io)
+- 微信公众号：小道的朋友圈
+- 邮箱：1282301776@qq.com
+- Github: https://github.com/zcqiand
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
+## 捐赠支持
 
-Thanks for reading!
+项目的发展离不开你的支持，如果觉得我们的内容对于你有所帮助，请作者喝杯咖啡吧！ 后续会继续完善更新！一起加油！
+
+![](https://i.imgtg.com/2023/04/01/2KAFG.png)
+
+## 微信公众号
+
+如果大家想要实时关注我更新的文章以及分享的干货的话，可以关注我的公众号。
+
+![](https://i.imgtg.com/2023/04/01/2KeIM.jpg)
