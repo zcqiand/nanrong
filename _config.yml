@@ -1,25 +1,25 @@
 # Dependencies
-markdown: redcarpet
-highlighter: pygments
+markdown:         redcarpet
+highlighter:      pygments
 
 # Permalinks
-permalink: pretty
+permalink:        pretty
 
 # Setup
-title: 南荣相如
-tagline: "南荣相如"
-description: "欢迎来到南荣相如的主页，在这个充满无限可能的数字时代，南荣相如带您探索这些领域的无穷魅力和令人着迷的奥秘。"
-url: https://zcqiand.github.io
-baseurl: /nanrong/
+title:            Hyde
+tagline:          'A Jekyll theme'
+description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://hyde.getpoole.com
+baseurl:          /
 
 author:
-  name: "南荣相如"
-  url: https://twitter.com/mdo
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
 
-paginate: 5
+paginate:         5
 
 # Custom vars
-version: 1.0.0
+version:          2.1.0
 
 github:
-  repo: https://github.com/zcqiand
+  repo:           https://github.com/poole/hyde
