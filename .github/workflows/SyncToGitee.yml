@@ -17,4 +17,3 @@ jobs:
         static_list: "nanrong"
         force_update: true
         debug: true
-        timeout: '1h'
