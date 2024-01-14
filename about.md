@@ -11,19 +11,19 @@ AI是未来：人工智能是我们时代最令人着迷的领域之一，它为
 
 旅行是奇迹：旅行是探索世界和拓展视野的绝佳方式。
 
-## 自媒体
-
-- [知乎](https://www.zhihu.com/people/zcqiand/)
-
 ## 写作
 
 - [ASP.NET Core+Vue.js全栈开发训练营](./_posts/2024-01-01-post01.md)
 
-## 产品
+## 编程
 
 - [Molong:基于.NET+Vue的博客系统](./_posts/2024-01-01-post01.md)
 <!-- - [ChangLi:基于.NET+Vue的ERP系统](./_posts/2024-01-01-post01.md) -->
 <!-- - [LingGui:基于.NET+Vue的通用权限系统](./_posts/2024-01-01-post01.md) -->
+
+## 自媒体
+
+- [知乎](https://www.zhihu.com/people/zcqiand/)
 
 ## 联系我
 
