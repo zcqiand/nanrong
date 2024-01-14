@@ -7,15 +7,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout source codes
-      uses: actions/checkout@v1
-    - name: Mirror Github to Gitee with white list
-      uses: ./.
+    - name: Mirror the Github repos to Gitee.
+      uses: Yikun/hub-mirror-action@master
       with:
         src: github/zcqiand
         dst: gitee/zcqiand
         dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
-        dst_token:  ${{ secrets.GITEE_TOKEN }}
-        static_list: 'nanrong'
+        dst_token: ${{ secrets.GITEE_TOKEN }}
+        static_list: "nanrong"
         force_update: true
         debug: true
+        timeout: '1h'
