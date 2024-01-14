@@ -22,7 +22,7 @@ jobs:
           # 必选，Gitee公钥对应的私钥
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
           # 必选，Gitee对应的用于创建仓库的token
-          dst_token:  ${{ secrets.GITEE_TOKEN }}
+          dst_token: ${{ secrets.GITEE_TOKEN }}
           # static_list 仓库名称 单一仓库同步
           static_list: "nanrong"
           # 如果是组织，指定组织即可，默认为用户user
