@@ -8,13 +8,7 @@ AI是未来：人工智能是我们时代最令人着迷的领域之一，它为
 
 ## 写作
 
-- [ASP.NET Core+Vue.js全栈开发训练营](./_posts/2024-01-01-post01.md)
-
-<!-- ## 编程 -->
-
-<!-- - [Molong:基于.NET+Vue的博客系统](./_posts/2024-01-01-post01.md) -->
-<!-- - [ChangLi:基于.NET+Vue的ERP系统](./_posts/2024-01-01-post01.md) -->
-<!-- - [LingGui:基于.NET+Vue的通用权限系统](./_posts/2024-01-01-post01.md) -->
+- [ASP.NET Core+Vue.js全栈开发训练营](https://zcqiand.github.io/nanrong/2024/01/01/post01/)
 
 ## 自媒体
 
@@ -30,10 +24,10 @@ AI是未来：人工智能是我们时代最令人着迷的领域之一，它为
 
 如果大家想要实时关注我更新的文章以及分享的干货的话，可以关注我的公众号。
 
-![](https://i.imgtg.com/2023/04/01/2KeIM.jpg)
+![](./assets/weixin.jpg)
 
 ## 捐赠支持
 
 如果觉得我们的内容对于你有所帮助，请作者喝杯咖啡吧！ 后续会继续完善更新！一起加油！
 
-![](https://i.imgtg.com/2023/04/01/2KAFG.png)
+![](./assets/zhifu.png)
