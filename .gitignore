@@ -1,4 +1,3 @@
-_site/
-_draft/
-.jekyll-cache/
-.vs/
+# OS or Editor folders
+.vs
+/.vs/slnx.sqlite
