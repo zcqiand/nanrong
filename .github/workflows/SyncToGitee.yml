@@ -18,4 +18,4 @@ jobs:
         force_update: true
         debug: true
         account_type: user  # 账户类型
-        clone_style: "ssh"  # 使用https方式进行clone，也可以使用ssh
+        clone_style: "https"  # 使用https方式进行clone，也可以使用ssh
