@@ -30,10 +30,10 @@ AI是未来：人工智能是我们时代最令人着迷的领域之一，它为
 
 如果大家想要实时关注我更新的文章以及分享的干货的话，可以关注我的公众号。
 
-![](https://gitee.com/zcqiand/nanrong/raw/main/assets/weixin.jpg)
+![](https://gitee.com/zcqiand/nanrong/raw/gh-pages/assets/weixin.jpg)
 
 ## 捐赠支持
 
-项目的发展离不开你的支持，如果觉得我们的内容对于你有所帮助，请作者喝杯咖啡吧！ 后续会继续完善更新！一起加油！
+如果觉得我们的内容对于你有所帮助，请作者喝杯咖啡吧！ 后续会继续完善更新！一起加油！
 
-![](https://gitee.com/zcqiand/nanrong/raw/main/assets/zhifu.png)
+![](https://gitee.com/zcqiand/nanrong/raw/gh-pages/assets/zhifu.png)
