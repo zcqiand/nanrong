@@ -21,15 +21,13 @@ AI是未来：人工智能是我们时代最令人着迷的领域之一，它为
 - [ChangLi:基于ASP\.NET Core+Vue的ERP系统](./_posts/2024-01-15-post01.md)
 <!-- - [LingGui:基于.NET+Vue的通用权限系统](./_posts/2024-01-01-post01.md) -->
 
-## 自媒体
-
-- [知乎](https://www.zhihu.com/people/zcqiand/)
-
 ## 联系我
 
 - 微信公众号：南荣相如
 - 邮箱：1282301776@qq.com
+- 主页：https://home.nanrong.store/
 - Github: https://github.com/zcqiand
+- 知乎：https://www.zhihu.com/people/zcqiand/
 
 ## 微信公众号
 
