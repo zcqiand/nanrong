@@ -4,7 +4,7 @@ tagline:             '少即是多'
 description:         '在这个充满无限可能的数字时代，我们带您探索这些领域的无穷魅力和令人着迷的奥秘。'
 url:                 https://home.nanrong.store
 baseurl:             ''
-paginate:            3
+paginate:            5
 permalink:           pretty
 
 # About/contact
