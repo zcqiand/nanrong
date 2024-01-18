@@ -4,8 +4,23 @@ title: Home
 ---
 
 <div class="posts">
-  {% for post in paginator.posts %}
+  {% for post in site.posts %}
   {% if post.stickie == true %}
+  <div class="post">
+    <h1 class="post-title">
+      【置顶】<a href="{{ post.url | absolute_url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+
+    {{ post.content }}
+  </div>
+  {% endif %}
+  {% endfor %}
+  
+  {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ post.url | absolute_url }}">
@@ -17,23 +32,22 @@ title: Home
 
     {{ post.content }}
   </div>
-  {% endif %}
   {% endfor %}
 </div>
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | absolute_url }}">旧的</a>
+    <a class="pagination-item older" href="{{ paginator.next_page_path | absolute_url }}">下一页</a>
   {% else %}
-    <span class="pagination-item older">旧的</span>
+    <span class="pagination-item older">下一页</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ '/' | absolute_url }}">新的</a>
+      <a class="pagination-item newer" href="{{ '/' | absolute_url }}">上一页</a>
     {% else %}
-      <a class="pagination-item newer" href="{{ paginator.previous_page_path | absolute_url }}">新的</a>
+      <a class="pagination-item newer" href="{{ paginator.previous_page_path | absolute_url }}">上一页</a>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">新的</span>
+    <span class="pagination-item newer">上一页</span>
   {% endif %}
 </div>
