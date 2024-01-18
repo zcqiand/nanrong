@@ -16,7 +16,7 @@ layout: null
  </author>
 
  {% for post in site.posts %}
-  {% if post.stickie == true %}
+  {% if post.stickie != true %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="{{ site.url }}{{ post.url }}"/>
@@ -27,9 +27,8 @@ layout: null
   {% endif %}
  {% endfor %}
   
-
  {% for post in site.posts %}
-  {% if post.stickie != true %}
+  {% if post.stickie == true %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="{{ site.url }}{{ post.url }}"/>
