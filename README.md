@@ -19,11 +19,13 @@ AI是未来：人工智能是我们时代最令人着迷的领域之一，它为
 ## 自媒体
 
 - [知乎](https://www.zhihu.com/people/zcqiand/)
+- [博客园](https://www.cnblogs.com/zcqiand)
 
 ## 联系我
 
 - 微信公众号：南荣相如
 - 邮箱：1282301776@qq.com
+- 主页：https://home.nanrong.store/
 - Github: https://github.com/zcqiand
 
 ## 微信公众号
