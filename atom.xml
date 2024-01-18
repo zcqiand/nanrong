@@ -27,16 +27,4 @@ layout: null
   {% endif %}
  {% endfor %}
 
- {% for post in site.posts %}
-  {% if post.stickie != true %}
- <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.url }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.url }}{{ site.baseurl }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
- </entry>
-  {% endif %}
- {% endfor %}
-
 </feed>
