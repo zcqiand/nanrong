@@ -14,11 +14,11 @@ layout: null
    <name>{{ site.author.name }}</name>
    <email>{{ site.author.email }}</email>
  </author>
-
+  
  {% for post in site.posts %}
-  {% if post.stickie != true %}
+  {% if post.stickie == true %}
  <entry>
-   <title>{{ post.title }}</title>
+   <title>【置顶】{{ post.title }}</title>
    <link href="{{ site.url }}{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{ site.url }}{{ site.baseurl }}{{ post.id }}</id>
@@ -26,9 +26,9 @@ layout: null
  </entry>
   {% endif %}
  {% endfor %}
-  
+
  {% for post in site.posts %}
-  {% if post.stickie == true %}
+  {% if post.stickie != true %}
  <entry>
    <title>{{ post.title }}</title>
    <link href="{{ site.url }}{{ post.url }}"/>
